@@ -1,0 +1,35 @@
+﻿# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Firebase (if you use it)
+google-services.json
+GoogleService-Info.plist
+
+# Android Signing
+*.jks
+*.keystore
+key.properties
+
+# Flutter/Dart Build & Cache
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Android Local Config
+android/local.properties
+android/.gradle/
+
+# iOS/macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+macos/Pods/
